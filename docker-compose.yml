@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - NGROK_AUTH_TOKEN=2qNKOgrXwxp4MaBmmu4AFjpH58E_6V9RPz5WDzu9xdEnaJN96
+    volumes:
+      - .:/app
+    env_file:
+      - .env
