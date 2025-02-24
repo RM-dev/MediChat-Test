@@ -1,4 +1,4 @@
-#Hussien El Khansa
+# Hussien El Khansa
 # MediChat: An AI-Powered Medical Consultation Assistant
 
 ## Project Overview  
